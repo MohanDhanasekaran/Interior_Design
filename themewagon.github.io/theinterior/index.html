@@ -11,6 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.html">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<!-- Font Awesome (optional for play icon) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
      
     <!-- Font Awesome CDN Link -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -122,46 +132,54 @@
     </div>
     <!-- slider Area End-->
     <!--? our info Start -->
-    <h1 style="width: 100%;text-align: center;" class="pt-50 ">Why Different Thinkers</h1>
-    <div class="our-info-area pt-70 pb-100 section-bg" data-background="assets/img/gallery/section_bg02.jpg">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-info mb-60">
-                        <div class="info-caption">
-                            
-                            <h4><i style="color: white; font-size: 95px;padding-right: 10px;color: orange;" class="fa-solid fa-building"></i>30 Days or we pay </h4>
-                            <p>you rent</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-info mb-60">
-                        <div class="info-caption">
-                            <h4><i style="color: white; font-size: 95px;padding-right: 10px;color: orange;" class="fa-solid fa-house"></i>10000+ Happy</h4>
-                            <p>Customers</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-info mb-60">
-                        <div class="info-caption">
-                            <h4><i style="color: white; font-size: 95px;padding-right: 10px;color: orange;" class="fa-solid fa-star"></i>10000+ Designs</h4>
-                            <p>Experts </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-info mb-60">
-                        <div class="info-caption">
-                            <h4><i style="color: white; font-size: 95px;padding-right: 10px;color: orange;" class="fas fa-shield-alt"></i>12 - Years Material</h4>
-                            <p>Warranty</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Section Title -->
+<div class="container pt-5">
+  <h1 class="text-center mb-4">Why Different Thinkers</h1>
+</div>
+<!-- Info Area -->
+<div class="our-info-area py-5 text-white" style="background: url('assets/img/gallery/section_bg02.jpg') no-repeat center center / cover;">
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+      
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="text-center p-3 bg-dark bg-opacity-50 rounded h-100">
+          <i class="fa-solid fa-building text-warning mb-3" style="font-size: 60px;"></i>
+          <h4 class="fw-bold">30 Days or we pay</h4>
+          <p class="mb-0 text-white">you rent</p>
         </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="text-center p-3 bg-dark bg-opacity-50 rounded h-100">
+          <i class="fa-solid fa-house text-warning mb-3" style="font-size: 60px;"></i>
+          <h4 class="fw-bold">10000+ Happy</h4>
+          <p class="mb-0 text-white">Customers</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="text-center p-3 bg-dark bg-opacity-50 rounded h-100">
+          <i class="fa-solid fa-star text-warning mb-3" style="font-size: 60px;"></i>
+          <h4 class="fw-bold">10000+ Designs</h4>
+          <p class="mb-0 text-white">Experts</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="text-center p-3 bg-dark bg-opacity-50 rounded h-100">
+          <i class="fas fa-shield-alt text-warning mb-3" style="font-size: 60px;"></i>
+          <h4 class="fw-bold">12 - Years Material</h4>
+          <p class="mb-0 text-white">Warranty</p>
+        </div>
+      </div>
+
     </div>
+  </div>
+</div>
     <!-- Our Info start -->
     <!--? Professional Services Start -->
     <div class="professional-services section-bg d-none d-md-block" data-background="assets/img/gallery/section_bg04.jpg"></div>
@@ -328,147 +346,113 @@
                 </div>
             </div>
             <div class="row">
-                <!-- single Tem -->
-                <div class="col-xl-6 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <p class="text-white mt-5 px-3 px-md-4 px-lg-5 text-justify fs-6 fs-md-5 fs-lg-4" style="text-align: justify;">Different Thinkers specializes in creating innovative and functional corporate interior solutions tailored to reflect your brand and business values. We offer services like partition designs, flooring, modular workstations, electrical and plumbing work, AC repair, fire safety systems, and modular office furniture. A well-planned corporate interior not only impresses clients and visitors but also provides a productive and inspiring environment for employees, enhancing overall efficiency and morale.</p>                     
-                        </div>
-                        <!-- <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div> -->
-                    </div>
-                </div>
-                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-xl-6 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img style="height: 350px;" src="assets/img/gallery/team4.png" alt="">
-                        </div>
-                        <!-- <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div> -->
-                    </div>
-                </div>
+    <!-- Text Content -->
+    <div class="col-xl-6 col-lg-6 col-md-12 animated-section">
+        <div class="single-team mb-4">
+            <div class="team-img">
+                <p class="text-white mt-4 px-3 px-md-4 text-justify fs-6 fs-md-5">
+                    <strong>Different Thinkers</strong> specializes in creating innovative and functional 
+                    <strong>corporate interior</strong> solutions tailored to reflect your brand and business values. 
+                    We offer services like partition designs, flooring, modular workstations, electrical and 
+                    plumbing work, AC repair, fire safety systems, and modular office furniture. 
+                    A well-planned interior not only impresses clients and visitors but also provides a productive 
+                    and inspiring environment for employees, enhancing overall efficiency and morale.
+                </p>
             </div>
+        </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="col-xl-6 col-lg-6 col-md-12 animated-section animated-delay">
+        <div class="single-team mb-4">
+            <div class="team-img text-center">
+                <img src="assets/img/gallery/team4.png" alt="Interior Design" class="img-fluid rounded shadow" style="height: 100%; max-height: 350px; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</div>
+
         </div>
     </div>
 
 
      <div class="team-area section-padding20">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-70">
-                        <!-- <span>Creative derector</span> -->
-                        <h2>Residential Interior</h2>
-                    </div> 
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-10">
+                <!-- Section Title -->
+                <div class="section-tittle text-center mb-70 animated-section">
+                    <h2>Residential Interior</h2>
                 </div>
             </div>
-            <div class="row">
-                <!-- single Tem -->
-                 
-                <div class="col-xl-6 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img style="height: 350px;" src="assets/img/gallery/team5.png" alt="">
-                        </div>
-                        <!-- <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div> -->
+        </div>
+
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-xl-6 col-lg-6 col-md-12 animated-section">
+                <div class="single-team mb-4">
+                    <div class="team-img text-center">
+                        <img src="assets/img/gallery/team5.png" alt="Residential Design" class="img-fluid rounded shadow" style="height: 100%; max-height: 350px; object-fit: cover;">
                     </div>
                 </div>
+            </div>
 
-
-                <div class="col-xl-6 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <p class="text-white mt-5 px-3 px-md-4 px-lg-5 text-justify fs-6 fs-md-5 fs-lg-4" style="text-align: justify;">We specialize in residential interior design that transforms your house into a dream home with style, comfort, and functionality. Our team focuses on creating personalized living spaces that reflect your taste and lifestyle, using modern designs and high-quality materials. Whether it's your living room, bedroom, or kitchen, our residential interior solutions ensure a perfect blend of aesthetics and practicality, making every corner of your home warm, inviting, and uniquely yours.     </div>
-                        <!-- <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div> -->
+            <!-- Text Section -->
+            <div class="col-xl-6 col-lg-6 col-md-12 animated-section animated-delay">
+                <div class="single-team mb-4">
+                    <div class="team-img">
+                        <p class="text-white mt-4 px-3 px-md-4 text-justify fs-6 fs-md-5">
+                            We specialize in <strong>residential interior</strong> design that transforms your house into a dream home with style, comfort, and functionality. Our team focuses on creating personalized living spaces that reflect your taste and lifestyle, using modern designs and high-quality materials. Whether it's your living room, bedroom, or kitchen, our solutions blend aesthetics and practicality—making every corner of your home warm, inviting, and uniquely yours.
+                        </p>
                     </div>
                 </div>
-                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div> -->
-                
             </div>
         </div>
     </div>
+</div>
+
 
 
     <div class="team-area section-padding30">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-70">
-                        <!-- <span>Creative derector</span> -->
-                        <h2>Office Interior</h2>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                <!-- single Tem -->
-                <div class="col-xl-6 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <p class="text-white mt-5 px-3 px-md-4 px-lg-5 text-justify fs-6 fs-md-5 fs-lg-4" style="text-align: justify;">We offer exceptional office interior solutions that blend style, functionality, and professionalism to create inspiring work environments. Our designs are tailored to reflect your brand identity while maximizing space efficiency and employee comfort. With a focus on modern trends and smart layouts, our office interior services ensure your workspace leaves a lasting impression on clients and boosts productivity among your team.     </div>
-                        <!-- <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div> -->
-                    </div>
-                </div>
-                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-xl-6 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img style="height: 350px;" src="assets/img/gallery/team6.png" alt="">
-                        </div>
-                        <!-- <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-7 col-lg-8 col-md-10">
+        <!-- Section Title -->
+        <div class="section-tittle text-center mb-70 animated-section">
+          <h2>Office Interior</h2>
         </div>
+      </div>
     </div>
+
+    <div class="row align-items-center">
+      <!-- Text Content -->
+      <div class="col-xl-6 col-lg-6 col-md-12 animated-section">
+        <div class="single-team mb-4">
+          <div class="team-img">
+            <p class="text-white mt-4 px-3 px-md-4 text-justify fs-6 fs-md-5">
+              We offer exceptional <strong>office interior</strong> solutions that blend style, functionality,
+              and professionalism to create inspiring work environments. Our designs are tailored to reflect
+              your brand identity while maximizing space efficiency and employee comfort. With a focus on
+              modern trends and smart layouts, our office interior services ensure your workspace leaves a
+              lasting impression on clients and boosts productivity among your team.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-xl-6 col-lg-6 col-md-12 animated-section animated-delay">
+        <div class="single-team mb-4">
+          <div class="team-img text-center">
+            <img src="assets/img/gallery/team6.png" alt="Office Interior"
+              class="img-fluid rounded shadow" style="max-height: 350px; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- Team End -->
     <!-- Testimonial Start -->
     <div class="testimonial-area testimonial-padding">
